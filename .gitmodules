@@ -1,0 +1,3 @@
+[submodule "EMB"]
+	path = EMB
+	url = https://github.com/WebFuzzing/EMB.git
