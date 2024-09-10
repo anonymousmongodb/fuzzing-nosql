@@ -24,8 +24,7 @@ In this study, experiments were conducted with 6 JVM REST APIs from [EMB](https:
 The case studies are implemented with various Java versions, i.e., Java 8, Java 11 and Java 17.
 In order to build them, there is a need to configure environment variables to know where could find the required version, i.e., `JAVA_HOME_8`, `JAVA_HOME_11`, and `JAVA_HOME_17`.
 
-For instance, `JAVA_HOME_8` is configured in Windows OS with __Advanced system settings__ as
-![jdk8](img/jdk8.jpg)
+For instance, `JAVA_HOME_8` is configured in Windows OS with __Advanced system settings__.
 
 **Step 2** build case studies
 
