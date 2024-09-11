@@ -61,7 +61,7 @@ How to configure the path could be conducted with the doc in the `exp-bb.py`. Fo
 **Step 3** Generate bash scripts for the experiments
 
 With the `exp-bb.py`, we provide parameters as `<basePort> <dir> <minSeed> <maxSeed> <maxTimeSeconds>`. Below shows a setting we used in the paper,
-> `python bb.py 12345 bb-exp-dir 1 10 3600`
+> `python exp-bb.py 12345 bb-exp-dir 1 10 3600`
 
 With the command, `bb-exp-dir` folder should be created as the following structure
 ```
