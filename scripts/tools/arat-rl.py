@@ -387,7 +387,7 @@ def initialize_q_learning(operations, parameters_frequency):
 import json
 
 
-def report_http_500_errors():
+def report_http_500_errors(dfilename):
     # Prepare the report content
     report_content = "Total number of operations that we found 500 Errors: " + str(total_n[0]) + "\n"
     report_content += "This report all errors that has different set of parameters, so we recommend to further explore them.\n"
@@ -396,7 +396,7 @@ def report_http_500_errors():
     report_content += json_report
 
     # Specify the filename
-    filename = 'http_500_error_report.txt'
+    filename = f"{dfilename}"
 
     if len(sys.argv) == 5:
         filename = str(sys.argv[4])
@@ -752,4 +752,4 @@ if __name__ == "__main__":
     q_value = {}
     MUTATION_RATE = 0.1
     main()
-    report_http_500_errors()
+    report_http_500_errors(str(sys.argv[4]))
